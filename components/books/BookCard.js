@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import Button from '../ui/Button';
 import { getUserFromStorage } from '../../lib/auth';
 
 const BookCard = ({ book, onDelete, showActions = false }) => {
