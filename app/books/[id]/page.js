@@ -12,8 +12,8 @@ import { getUserFromStorage, isAuthenticated } from '../../../lib/auth';
 
 export default function BookDetailPage({ params }) {
   const router = useRouter();
-  // const unwrappedParams = use(params) 
-  const { id } = params;
+  const unwrappedParams = use(params) 
+  const { id } = unwrappedParams.id;
   const [book, setBook] = useState(null);
   const [loading, setLoading] = useState(true);
   const user = getUserFromStorage();
