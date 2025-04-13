@@ -28,7 +28,7 @@ export default function Home() {
           <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
             <h2 className="text-xl font-semibold mb-3">Book Owners</h2>
             <p className="text-gray-600 mb-4">
-              Share your books with the community. List books you're willing to lend or exchange.
+              Share your books with the community. List books you&apos;re willing to lend or exchange.
             </p>
             <Link 
               href="/auth/register" 

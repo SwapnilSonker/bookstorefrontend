@@ -66,7 +66,7 @@ export default function BookDetailPage({ params }) {
       <MainLayout>
         <div className="text-center py-12">
           <h2 className="text-2xl font-bold text-gray-700">Book not found</h2>
-          <p className="mt-2 text-gray-500">The book you're looking for might have been removed or doesn't exist.</p>
+          <p className="mt-2 text-gray-500">The book you&apos;re looking for might have been removed or doesn&apos;t exist.</p>
           <Button
             onClick={() => router.push('/books')}
             variant="primary"

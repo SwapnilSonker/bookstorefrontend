@@ -16,7 +16,7 @@ export default function Error({ error, reset }) {
       <div className="min-h-[70vh] flex flex-col items-center justify-center text-center">
         <h1 className="text-3xl font-bold text-red-600 mb-4">Something went wrong!</h1>
         <p className="text-xl text-gray-600 max-w-md mb-8">
-          An unexpected error has occurred. We're sorry for the inconvenience.
+          An unexpected error has occurred. We&apos;re sorry for the inconvenience.
         </p>
         <div className="flex space-x-4">
           <button

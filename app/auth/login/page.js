@@ -12,7 +12,7 @@ export default function LoginPage() {
         <h1 className="text-3xl font-bold text-center mb-8">Login to Book Exchange</h1>
         <LoginForm />
         <p className="text-center mt-6 text-gray-600">
-          Don't have an account? <Link href="/auth/register" className="text-blue-600 hover:underline">Register here</Link>
+          Don&apos;t have an account? <Link href="/auth/register" className="text-blue-600 hover:underline">Register here</Link>
         </p>
       </div>
     </MainLayout>

@@ -85,7 +85,7 @@ export default function OwnerDashboardPage() {
         
         {books.length === 0 ? (
           <div className="bg-white p-8 rounded-lg shadow-md text-center">
-            <h2 className="text-xl font-semibold mb-4">You haven't listed any books yet</h2>
+            <h2 className="text-xl font-semibold mb-4">You haven&apos;t listed any books yet</h2>
             <p className="text-gray-600 mb-6">
               Share your books with the community by adding your first book listing.
             </p>
